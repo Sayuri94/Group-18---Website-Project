@@ -32,13 +32,13 @@
 }
 
 .brand-name {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     margin: 0;
 }
 
 .motto {
-    font-size: 25px;
+    font-size: 40px;
     margin: 0;
     
 }
@@ -48,7 +48,7 @@
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
-    gap: 50px; 
+    gap: 10px; 
     padding: 20px;    
 }
   
@@ -60,28 +60,28 @@
 }
   
 .login-word {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
-    margin: 0;
+    margin: 50px;
     color: black;
 
 }
   
 .login-image {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: auto;
 }
 
 .cart-word {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
-    margin: 0;
+    margin: 15px;
     color: black;
 }
   
 .cart-image {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: auto;
 }
   
 
@@ -90,7 +90,7 @@
 .categories {
     background-color: black;
     color: white;
-    padding: 25px 2px;
+    padding: 50px 2px;
     margin-top: 100px;
     margin-bottom: 100px;
     
@@ -117,14 +117,16 @@
     padding: 0;   
     margin-left: 125px;     
     gap: 0;        
-    width: 300px; 
-    height: 545px;
+    width:100% ;
+    height: auto;
 }
     
 .first-images img {
     display: block; 
     margin: 0;      
-    padding: 0;     
+    padding: 0;   
+    width:100% ;
+    height: auto;  
     
 }
 
@@ -132,15 +134,17 @@
     display: flex; 
     padding: 0;    
     margin-left: 125px;     
-    gap: 0;        
+    gap: 0; 
+    width:100% ;
+    height: auto;       
 }
     
 .second-images img {
     display: block; 
     margin: 0;      
     padding: 0;     
-    width: 321px; 
-    height: 545px;
+    width:100% ;
+    height: auto;
 }
     
 
@@ -148,7 +152,7 @@
 .new-in {
     background-color: black;
     color: white;
-    padding: 25px 2px;
+    padding: 55px 2px;
     margin-top: 100px;    
     
 }s
@@ -158,13 +162,13 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0;
+    margin: auto;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 75px;
 }
 
 /* visited link */
