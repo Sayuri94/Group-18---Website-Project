@@ -4,6 +4,8 @@
     background-color: white;
 }
 
+ /* Logo */
+
 .logo {
     position: relative;
     display: inline-block;
@@ -16,6 +18,8 @@
     height: 150px;
     
 }
+
+/* Brand Name and Moto */
 
 .fashion {
     position: absolute;
@@ -39,50 +43,33 @@
     
 }
 
-/* Login Section Styling */
-.login-section {
-    display: flex;
+/* Login */
+.header {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 50px; 
+    padding: 20px;    
+}
+  
+.login-section,
+.cart-section {
+    display: flex; 
     align-items: center; 
     gap: 10px; 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    padding-right: 300px; 
-    top: 40px;
-    right: 0; 
-       
-        
 }
-
+  
 .login-word {
     font-size: 20px;
     font-weight: bold;
     margin: 0;
     color: black;
-    
-}
 
+}
+  
 .login-image {
-    width: 40px; 
+    width: 40px;
     height: 40px;
-}
-
-/* Cart Section Styling */
-.cart-section {
-    display: flex;
-    align-items: center; 
-    gap: 10px; 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    padding-right: 100px; 
-    top: 40px;
-    right: 0;
-   
 }
 
 .cart-word {
@@ -91,14 +78,15 @@
     margin: 0;
     color: black;
 }
-
+  
 .cart-image {
-    width: 40px; 
+    width: 40px;
     height: 40px;
 }
+  
 
 
-/* Header Styling */
+/* Categories */
 .categories {
     background-color: black;
     color: white;

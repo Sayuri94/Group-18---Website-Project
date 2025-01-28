@@ -1,13 +1,87 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
+/* Details of the body */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+/* Logo */
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-left: 70px;
+    top: 40px; 
+}
+
+.logo-image {
+    width: 350px; 
+    height: 150px;
+    
+}
+
+/* Brand Name and Moto */
+
+.fashion {
+    position: absolute;
+    top: 45px; 
+    left: 435px; 
+    text-align: left; 
+    color: black; 
+    padding: 1px;
+        
+}
+
+.brand-name {
+    font-size: 50px;
+    font-weight: bold;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-    min-height: 100vh;
+}
+
+.motto {
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+/* Login */
+.header {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 50px; 
+    padding: 20px;    
+}
+  
+.login-section,
+.cart-section {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+  
+.login-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+
+}
+  
+.login-image {
+    width: 40px;
+    height: 40px;
+}
+
+.cart-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+  
+.cart-image {
+    width: 40px;
+    height: 40px;
 }
 
 /* Voucher Container */
