@@ -50,8 +50,7 @@
     justify-content: flex-end; 
     align-items: center;
     padding-right: 300px; 
-    position: relative;
-    top: auto;
+    top: 40px;
     right: 0; 
        
         
@@ -81,8 +80,7 @@
     justify-content: flex-end; 
     align-items: center;
     padding-right: 100px; 
-    position: fixed;
-    top: 90px;
+    top: 40px;
     right: 0;
    
 }
