@@ -50,8 +50,8 @@
     justify-content: flex-end; 
     align-items: center;
     padding-right: 300px; 
-    position: fixed;
-    top: 90px;
+    position: relative;
+    top: auto;
     right: 0; 
        
         
