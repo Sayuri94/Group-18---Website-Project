@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project</title>
+    <link rel="stylesheet" href="wishliststyle.css">
+    <script defer src="script.js"></script> <!-- Link to JavaScript file -->
+</head>
+<body>
+
+    <!-- Logo Section -->
+    <div class="logo">
+        <img src="Front Images/Logo 1.jpg" alt="Logo Image" class="logo-image">
+    </div>
+    <div class="fashion">
+        <h1 class="brand-name">BlackThread</h1>
+        <p class="motto">Effortless Elegance for Every Day</p>
+    </div>
+
+    <!-- Login -->
+    <div class="login-section">
+        <a href="#" class="login-link">
+            <h1 class="login-word">Login</h1>
+        </a>
+        <img src="Front Images/login icon.png" alt="Login Image" class="login-image">
+    </div>
+
+    <!-- Cart -->
+    <div class="cart-section">
+        <a href="#" class="cart-link">
+            <h1 class="cart-word">Cart (<span id="cart-count">0</span>)</h1>
+        </a>
+        <img src="Front Images/cart.png" alt="Cart Image" class="cart-image">
+    </div>
+
+    <!-- Shopping Cart Modal -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <h2>Your Shopping Cart</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="close-cart">Close</button>
+            <button id="checkout">Checkout</button>
+        </div>
+    </div>
+
+    <!-- Wish List Modal -->
+    <div id="wishlist-modal" class="wishlist-modal">
+        <div class="wishlist-content">
+            <h2>Your Wish List</h2>
+            <ul id="wishlist-items"></ul>
+            <button id="close-wishlist">Close</button>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <header class="categories">
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Discounts</a></li>
+                    <li><a href="#" id="wishlist-button">Wish List</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <div class="products">
+        <div class="product" data-name="Product 1" data-price="25.99">
+            <img src="Front Images/Front Image 1 .jpg" alt="Product 1">
+            <p>Product 1 - $25.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="add-to-wishlist">❤️ Add to Wish List</button>
+        </div>
+        <div class="product" data-name="Product 2" data-price="30.99">
+            <img src="Front Images/Front Image 2.jpg" alt="Product 2">
+            <p>Product 2 - $30.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="add-to-wishlist">❤️ Add to Wish List</button>
+        </div>
+        <div class="product" data-name="Product 3" data-price="19.99">
+            <img src="Front Images/Front Image 3.jpg" alt="Product 3">
+            <p>Product 3 - $19.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="add-to-wishlist">❤️ Add to Wish List</button>
+        </div>
+    </div>
+
+    <footer>        
+        <div class="footer-containaer">
+            <div class="footer-section">
+            <h3>Shop</h3>
+            <ul>
+                <li><a href="frontpage.html">Home</a></li>
+                <li><a href="frontpage.html">New In</a></li>
+                <li><a href="frontpage.html">View Collection</a></li>
+            </ul>
+        </div>           
+                <div class="footer-section">
+                <h3>Information</h3>
+            <ul>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+            </div>
+                <div class="footer-section">
+                <h3>Terms Of Use</h3>
+            <ul>
+                <li><a href="terms.html">Terms and Conditions</a></li>
+                <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+            </ul>
+            </div>
+                <div class="footer-section social-media">
+                    <h3>Follow Us On</h3>
+                            <a href="https://www.facebook.com"><img src="Front Images/Footer2.jpg" ></a>
+                            <a href="https://www.instagram.com"><img src="Front Images/Footer1.jpg" ></a>        
+                    </div>
+                </div>
+                
+            
+        </footer>
+
+</body>
+</html>
