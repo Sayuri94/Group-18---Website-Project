@@ -3,13 +3,67 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: url('BackgroundImage/image1.jpg') repeat;
 }
+
+
+
+/* Logo */
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-left: 0px;
+    top: 40px; 
+}
+
+.logo-image {
+    width: 250px; 
+    height: 120px;
+    
+}
+
+
+.fashion {
+    position: absolute;
+    top: 45px; 
+    left: 260px; 
+    text-align: left; 
+    color: black; 
+    padding: 10px;
+        
+}
+
+.brand-name {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.motto {
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+.cart-section {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 20px; 
+    padding: 30px; 
+}
+
 /* Header Styling */
 .header {
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 15px 20px;
 }
+
 .nav-links ul {
     list-style: none;
     display: flex;
@@ -17,11 +71,13 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .nav-links a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
+
 /* Section Title Styling */
 .section-title {
     text-align: center;
@@ -31,6 +87,7 @@ body {
     color: #333;
     text-transform: uppercase;
 }
+
 /* Product Container */
 .pro-container {
     display: grid;
@@ -39,7 +96,12 @@ body {
     padding: 20px;
     justify-items: center; /* Center items horizontally */
     align-items: stretch; /* Make items equal height */
+   
+    background: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+ 
+    border-radius: 10px;
 }
+
 /* Product Card Styling */
 .pro {
     text-align: center;
@@ -52,6 +114,7 @@ body {
     background: #fff;
     transition: transform 0.3s, box-shadow 0.3s;
 }
+
 /* Product Image Styling */
 .pro img {
     width: 300px;
@@ -59,40 +122,164 @@ body {
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 /* Zoom-Out Effect on Hover */
 .pro img:hover {
     transform: scale(1.1); /* Scale down to 90% */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
 }
+
 .pro:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
+
 .des span {
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 .des h4 {
     color: #ff5722;
     font-weight: bold;
 }
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    display: none; /* Initially hidden */
-    transition: opacity 0.3s;
+
+.sizes {
+    margin-top: 10px; /* Add spacing above the sizes */
+    display: flex; /* Use flexbox for row alignment */
+    align-items: center; /* Vertically align the text and buttons */
 }
 
-.back-to-top:hover {
-    background-color: #45a049;
+.sizes span {
+    font-weight: bold;
+    margin-right: 10px; /* Add spacing between "Sizes:" label and buttons */
 }
+
+.size-btn {
+    margin-right: 5px; /* Add spacing between buttons */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    transition: all 0.3s ease;
+}
+
+.size-btn:hover {
+    background-color: #e0e0e0;
+    border-color: #888;
+}
+
+.size-btn.active {
+    background-color: #555;
+    color: white;
+    border-color: #555;
+}
+
+
+.image-grid{
+
+    width:auto;
+    margin: auto; /*centers the layout*/
+    display: grid; /* Use Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 100px;; /* Space between images */
+    font-size: 50px
+
+}
+
+.image-grid img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    
+    
+    
+}
+.image-grid p{
+    margin: 10px; /* Space between image and text */
+    text-align: center;
+    
+}
+
+.cart-image {
+    width: 40px;
+    height: 40px;
+}
+
+.cart-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white(219, 172, 172);
+
+    padding: 50px 0;    ;
+    background-color: black; /* Light background for footer */
+    text-align: center;
+    color: white;
+    display:grid;
+    margin:auto;  /*centers the layout*/
+    font-size: 20px;
+}
+
+.footer-container {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-heading {
+    display: inline-flex; /* Make the heading behave like an inline element */
+    margin-bottom: auto; /* Add space below the heading */
+    font-size: 300px;
+    font-weight: bold;
+    margin: 100px;
+
+}
+
+.footer-section {
+    display: inline;
+    min-width: 200px;
+    padding: 10px
+
+
+
+}
+.footer-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+
+}
+
+
