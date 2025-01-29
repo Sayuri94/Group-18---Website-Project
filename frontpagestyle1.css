@@ -116,8 +116,8 @@
     padding: 0;   
     margin-left: 125px;     
     gap: 0;        
-    width:550px;
-    height: 450px;
+    width:650px;
+    height: 540px;
 }
     
 .first-images img {
@@ -134,8 +134,8 @@
     padding: 0;    
     margin-left: 125px;     
     gap: 0; 
-    width:550px;
-    height: 450px;       
+    width:580px;
+    height: 454px;       
 }
     
 .second-images img {
@@ -151,7 +151,7 @@
 .new-in {
     background-color: black;
     color: white;
-    padding: 55px 2px;
+    padding: 25px 2px;
     margin-top: 100px;    
     
 }s
@@ -161,13 +161,13 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: auto;
+    margin: 0;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 75px;
+    font-size: 25px;
 }
 
 /* visited link */
