@@ -9,13 +9,13 @@
 .logo {
     position: relative;
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 30px;
     top: 40px; 
 }
 
 .logo-image {
-    width: 350px; 
-    height: 150px;
+    width: 250px; 
+    height: 120px;
     
 }
 
@@ -24,21 +24,21 @@
 .fashion {
     position: absolute;
     top: 45px; 
-    left: 435px; 
+    left: 325px; 
     text-align: left; 
     color: black; 
-    padding: 1px;
+    padding: 10px;
         
 }
 
 .brand-name {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     margin: 0;
 }
 
 .motto {
-    font-size: 40px;
+    font-size: 25px;
     margin: 0;
     
 }
@@ -48,7 +48,7 @@
     display: flex; 
     justify-content: flex-end; 
     align-items: center; 
-    gap: 10px; 
+    gap: 50px; 
     padding: 20px;    
 }
   
@@ -60,28 +60,28 @@
 }
   
 .login-word {
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 50px;
+    margin: 0;
     color: black;
 
 }
   
 .login-image {
-    width: 100px;
-    height: auto;
+    width: 40px;
+    height: 40px;
 }
 
 .cart-word {
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 15px;
+    margin: 0;
     color: black;
 }
   
 .cart-image {
-    width: 100px;
-    height: auto;
+    width: 40px;
+    height: 40px;
 }
   
 
@@ -90,8 +90,8 @@
 .categories {
     background-color: black;
     color: white;
-    padding: 50px 2px;
-    margin-top: 100px;
+    padding: 25px 2px;
+    margin-top: 50px;
     margin-bottom: 100px;
     
 }
@@ -115,25 +115,25 @@
 .first-images{
     display: flex; 
     padding: 0;   
-    margin-left: 125px;     
+    margin-left: auto;     
     gap: 0;        
     width:100% ;
-    height: auto;
+    height: auto;;
 }
     
 .first-images img {
     display: block; 
-    margin: 0;      
+    margin: auto;      
     padding: 0;   
-    width:100% ;
-    height: auto;  
+    width:321px ;
+    height: 545px;  
     
 }
 
 .second-images{
     display: flex; 
     padding: 0;    
-    margin-left: 125px;     
+    margin-left: auto;     
     gap: 0; 
     width:100% ;
     height: auto;       
@@ -141,10 +141,10 @@
     
 .second-images img {
     display: block; 
-    margin: 0;      
+    margin: auto;      
     padding: 0;     
-    width:100% ;
-    height: auto;
+    width:321px ;
+    height: 545px;
 }
     
 
@@ -152,7 +152,7 @@
 .new-in {
     background-color: black;
     color: white;
-    padding: 55px 2px;
+    padding: 25px 2px;
     margin-top: 100px;    
     
 }s
@@ -162,13 +162,13 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: auto;
+    margin: 0;
 }
 
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 75px;
+    font-size: 25px;
 }
 
 /* visited link */
