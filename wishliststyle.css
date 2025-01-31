@@ -220,7 +220,7 @@ footer {
     background-color: white(219, 172, 172);
 
     padding: 50px 0;    ;
-    background-color: black; /* Light background for footer */
+    background-color: black; 
     text-align: center;
     color: white;
     display:grid;
@@ -229,15 +229,15 @@ footer {
 }
 
 .footer-container {
-    display: flex; /* Use Flexbox for layout */
+    display: flex; 
     justify-content: space-around;
     max-width: 1200px;
     margin: auto;
 }
 
 .footer-heading {
-    display: inline-flex; /* Make the heading behave like an inline element */
-    margin-bottom: auto; /* Add space below the heading */
+    display: inline-flex; 
+    margin-bottom: auto;
     font-size: 300px;
     font-weight: bold;
     margin: 100px;
